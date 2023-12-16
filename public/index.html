@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Analyzer</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <input type="file" id="fileInput" accept=".pdf">
+    <button onclick="uploadPDF()">Analyze PDF</button>
+    <div id="result"></div>
+    <input type="text" id="userQuery" placeholder="Ask a question...">
+    <button onclick="askQuestion()">Ask</button>
+</body>
+</html>
